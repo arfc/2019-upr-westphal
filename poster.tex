@@ -129,7 +129,7 @@ minimum height=2em]
 \begin{alertblock}{Objectives}
 \begin{itemize}
         \item Timely detection of diversion relies on the identification of signatures and observables for unique facilities. 
-        \item Create high-fidelity diversion algorithms .
+        \item Create high-fidelity diversion algorithms.
         \item Determine optimum detector and inspection locations in pyroprocessing facilities using the Cyclus framework.
         \item Adapt this work to be applicable to a wide range of nuclear fuel cycle facilities in Cyclus
         \item Characterize required detection sensitivities and corresponding 
@@ -197,7 +197,7 @@ minimum height=2em]
 	\begin{block} {Nefarious Diversion}
 		\begin{figure}
 			\includegraphics[width=0.9\linewidth]{diversion1.png}
-			\caption{Illustration of nefarious diversion of Cyclus inventory \cite{Yilmaz_2016}.}
+			\caption{Illustration of nefarious diversion of Cyclus inventory.}
 		\end{figure}
 		
 	\end{block}
@@ -208,7 +208,7 @@ minimum height=2em]
 		\end{figure}
 		\begin{figure}
 			\includegraphics[width=\linewidth]{refining}
-			\caption{Example material balance used over a sub-process for diversion detection.}
+			\caption{Example material balance used over a sub-process for diversion detection \cite{lee_advanced_2008}.}
 		\end{figure}
 	\end{block}
 
@@ -228,22 +228,26 @@ minimum height=2em]
 \begin{column}{\onecolwid} % The third column
 	
 \begin{block}{Diversion Detection}
-	To maintain customization of the archetype the diversion detection algorithm will not know mean values for transactions.
-	It is assumed that diversion will occur a number of time steps after startup, allowing the cumulative sum to approximate a mean
-	based on simulated data.
+	To maintain customization of the archetype a CUMUFR (cumulative sum of MUF residuals) algorithm is used.
+	This approach has the benefit of not requiring a known mean value, however, time is required for the statistic before being able to accurately detect material diversion.
 	\begin{figure}
 		\includegraphics[width=0.9\linewidth]{cusum-example.png}
-		\caption{Cumulative sum method being used to detect a change in material flow \cite{Yilmaz_2016}.}
+		\caption{Cumulative sum method being used to detect a change in material flow \cite{basseville_detection_1993}.}
 	\end{figure}
 	
 \end{block}
 %----------------------------------------------------------------------------------------
 %	FUTURE WORK
 %----------------------------------------------------------------------------------------
+\begin{block}{Accomplishments}
+	\begin{itemize}
+		\item Created a highly customizable pyroprocessing facility within Cyclus.
+		\item Performed a variety of "standard operation" simulations without diversion.
+		\item Developed a method to handle multiple diversion modes and improve reproducibility.
+	\end{itemize}
+\end{block}
 
 \begin{alertblock}{Future Work}
-	The goal of this poster is to outline what has been accomplished in Cyclus diversion detection and review challenges and properties
-	specific to pyroprocessing. Future work includes:
 	\begin{itemize}
 		\item Sensitivity analysis of diversion methods.
 		\item Compare Cyclus output for various facility configurations.
@@ -263,9 +267,10 @@ minimum height=2em]
 
 \begin{block}{Acknowledgements}
 	
-	This research was performed using funding received
-	from the Consortium for Nonproliferation Enabling
-	Capabilities under award number 1-483313-973000-191100.
+	This material is based upon work supported by
+	the Department of Energy National Nuclear Security
+	Administration under Award Number(s) DE-NA0002576 via
+	the Consortium for Nonproliferation Enabling Capabilities.
 	
 	\vspace{10mm}
 	\begin{center}
