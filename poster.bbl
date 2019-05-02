@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{Borrelli_2017}
+R.~A. Borrelli, J.~Ahn, and Y.~Hwang.
+\newblock Approaches to a practical systems assessment for safeguardability of
+  advanced nuclear fuel cycles.
+\newblock {\em Nuclear Technology}, 197:248--264, Mar. 2017.
+
+\bibitem{Hou_2016}
+E.~Hou, Y.~Yilmaz, and A.~O. Hero.
+\newblock Diversion detection in partially observed nuclear fuel cycle
+  networks.
+\newblock 2016.
+
+\bibitem{huff_2018}
+K.~D. Huff.
+\newblock Closed {Nuclear} {Fuel} {Cycle} {Flowsheet}, Jan. 2018.
+\newblock DOI: 10.6084/m9.figshare.5765898.v1.
+
+\bibitem{Huff_2016}
+K.~D. Huff, M.~J. Gidden, R.~W. Carlsen, R.~R. Flanagan, M.~B. McGarry, A.~C.
+  Opotowsky, E.~A. Schneider, A.~M. Scopatz, and P.~P. Wilson.
+\newblock Fundamental concepts in the cyclus nuclear fuel cycle simulation
+  framework.
+\newblock {\em Advances in Engineering Software}, 94:46--59, Apr. 2016.
+
+\bibitem{Kemp_2016}
+R.~S. Kemp.
+\newblock Environmental detection of clandestine nuclear weapon programs.
+\newblock {\em Annual Review of Earth and Planetary Sciences}, 44:17--35, 2016.
+
+\bibitem{Rossi_2016}
+F.~Rossi.
+\newblock Application of the gif pr and pp methodology to a fast reactor system
+  for a diversion scenario.
+\newblock Technical {Report}, 2015.
+
+\bibitem{Yilmaz_2016}
+Y.~Yilmaz, E.~Hou, and A.~O. Hero.
+\newblock Online diversion detection in nuclear fuel cycles via multimodal
+  observations.
+\newblock 2016.
+
+\end{thebibliography}
