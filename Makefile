@@ -23,9 +23,9 @@ epub:
 	mk4ht htlatex $(manuscript).tex 'xhtml,charset=utf-8,pmathml' ' -cunihtf -utf8 -cvalidate'
 	ebook-convert $(manuscript).html $(manuscript).epub
 
-fc-diagram.pdf :
-	latex fc-diagram
-	dvipdf fc-diagram
+op-diversion.pdf :
+	latex op-diversion
+	dvipdf op-diversion
 
 clean:
 	rm -f *.pdf *.dvi *.toc *.aux *.out *.log *.bbl *.blg *.log *.spl *~ *.spl *.zip *.acn *.glo *.ist *.epub

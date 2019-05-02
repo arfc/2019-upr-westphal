@@ -98,7 +98,7 @@ minimum height=2em]
 	\includegraphics[width=0.2\linewidth]{ilogo}
 	\hspace{30cm}
 	\vspace{2cm}
-	\includegraphics[width=0.3\linewidth]{cnec_logo.png} \\
+	\includegraphics[width=0.3\linewidth]{cnec_logo} \\
 	Diversion Detection in Cyclus Archetpyes
 } % Poster title
 
@@ -131,7 +131,7 @@ minimum height=2em]
         \item Timely detection of diversion relies on the identification of signatures and observables for unique facilities. 
         \item Create high-fidelity diversion algorithms .
         \item Determine optimum detector and inspection locations in pyroprocessing facilities using the Cyclus framework.
-        \item Adapt this work to be applicable to a wide range of nuclear fuel cycle facilities in cyclus
+        \item Adapt this work to be applicable to a wide range of nuclear fuel cycle facilities in Cyclus
         \item Characterize required detection sensitivities and corresponding 
                 false positive rates. 
 \end{itemize}
@@ -185,23 +185,25 @@ minimum height=2em]
 %	SIGNATURES AND OBSERVABLES
 %----------------------------------------------------------------------------------------
 
-\begin{block}{Material Detection}
-        Material diversion occurs in two different modes: nefarious or operator.
-        Nefarious diversion is the simplest as a bad actor will steal material at certain time steps.
-        Operator diversion occurs when one of the facility operators is attempting to siphon off material
-        by increasing productivity of the plant (or throughput) and taking off excess.
+\begin{block}{Material Diversion}
+        Material diversion occurs in two different modes: \textbf{nefarious} or \textbf{operator}.
+        \begin{itemize}
+        \item \textbf{Nefarious Diversion} imagines diversion by a single bad actor with facility access.
+        \item \textbf{Operator Diversion} imagines undeclared production.
+        \item Either can be achieved by increasing plant throughput and siphoning off material excess for unsanctioned weapons production.
+        \end{itemize}
         
         
 	\begin{block} {Nefarious Diversion}
 		\begin{figure}
 			\includegraphics[width=0.9\linewidth]{diversion1.png}
-			\caption{Illustration of nefarious diversion of cyclus inventory \cite{Yilmaz_2016}.}
+			\caption{Illustration of nefarious diversion of Cyclus inventory \cite{Yilmaz_2016}.}
 		\end{figure}
 		
 	\end{block}
 	\begin{block} {Operator Diversion}
 		\begin{figure}
-			\includegraphics[width=0.9\linewidth]{op-diversion}
+			\includegraphics[width=0.8\linewidth]{op-diversion}
 			\caption{Procedure for generating operator diversion values inside a simulation.}
 		\end{figure}
 		\begin{figure}
@@ -209,10 +211,14 @@ minimum height=2em]
 			\caption{Example material balance used over a sub-process for diversion detection.}
 		\end{figure}
 	\end{block}
-	
+
+\begin{center}
+	\begin{tabular}{ccc}
+		\centering
+		\includegraphics[width=0.45\linewidth]{nnsa}
+	\end{tabular}
+\end{center}
 \end{block}
-
-
 %----------------------------------------------------------------------------------------
 
 \end{column} % End of column 2
@@ -236,8 +242,8 @@ minimum height=2em]
 %----------------------------------------------------------------------------------------
 
 \begin{alertblock}{Future Work}
-	The goal of this poster is to outline what has been accomplished in cyclus diversion detection and review challenges and properties
-	specific to pyroprocessing. What needs to be accomplished proceeding this work is as follows:
+	The goal of this poster is to outline what has been accomplished in Cyclus diversion detection and review challenges and properties
+	specific to pyroprocessing. Future work includes:
 	\begin{itemize}
 		\item Sensitivity analysis of diversion methods.
 		\item Compare Cyclus output for various facility configurations.
@@ -264,7 +270,7 @@ minimum height=2em]
 	\vspace{10mm}
 	\begin{center}
 		\begin{tabular}{ccc}
-			\includegraphics[width=0.3\linewidth]{logo.png} & \includegraphics[width=0.5\linewidth]{cnec_logo.png}
+			\includegraphics[width=0.3\linewidth]{logo.png} & \includegraphics[width=0.5\linewidth]{cnec_logo}
 		\end{tabular}
 	\end{center}
 	
